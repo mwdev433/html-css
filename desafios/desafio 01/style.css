@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, orange, rgb(30, 68, 68));
+    margin: 0;
+}
+
+main{
+    background: white;
+    width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.foto{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    display:flex;
+    align-items:center;
+    margin:10px 0;
+}
+
+li img{
+    width:25px;
+    margin-right:10px;
+}
+
+a{
+    text-decoration:none;
+    color:#0a66c2;
+    font-weight:bold;
+}
